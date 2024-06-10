@@ -8,15 +8,9 @@ const Hamburguer = () => {
   const showMenu = useSelector((state) => state.cart.menuIsVisible);
   const dispatch = useDispatch();
 
-  const handleHamburguerClick = () => {
-    dispatch(cartActions.toggleMenu());
-  };
   return (
     <div>
-      <div
-        onClick={handleHamburguerClick}
-        className={`${classes.Hamburguer} ${showMenu ? classes.open : ""}`}
-      >
+      <div className={`${classes.Hamburguer} ${showMenu ? classes.open : ""}`}>
         <span></span>
         <span></span>
         <span></span>

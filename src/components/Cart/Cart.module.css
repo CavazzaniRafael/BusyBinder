@@ -10,11 +10,10 @@
 
 .menu {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   z-index: 10;
   height: 100%;
-  width: 100%;
   background-color: white;
   border-radius: 15px;
 }

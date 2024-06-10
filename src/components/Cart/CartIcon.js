@@ -1,6 +1,15 @@
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { cartActions } from "../../store/cart-slice";
+
 const CartIcon = ({ size }) => {
+  const dispatch = useDispatch();
+  const handleCartClick = () => {
+    dispatch(cartActions.toggleCart());
+  };
   return (
     <svg
+      onClick={handleCartClick}
       width={size}
       height={size}
       xmlns="http://www.w3.org/2000/svg"

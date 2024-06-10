@@ -4,11 +4,11 @@ const cartSlice = createSlice({
   name: "cart",
   initialState: { cartIsVisible: false, menuIsVisible: false },
   reducers: {
-    toggleCart(state) {
-      state.cartIsVisible = !state.cartIsVisible;
+    toggleCart(state, action) {
+      state.cartIsVisible = action.payload;
     },
-    toggleMenu(state) {
-      state.menuIsVisible = !state.menuIsVisible;
+    toggleMenu(state, action) {
+      state.menuIsVisible = action.payload;
     },
   },
 });

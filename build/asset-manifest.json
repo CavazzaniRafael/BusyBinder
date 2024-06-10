@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/BusyBinder/static/css/main.4918aacf.css",
-    "main.js": "/BusyBinder/static/js/main.e282184e.js",
+    "main.css": "/BusyBinder/static/css/main.879beaf4.css",
+    "main.js": "/BusyBinder/static/js/main.e7a27cc9.js",
+    "static/media/Busybinder-logo.png": "/BusyBinder/static/media/Busybinder-logo.d0392ae46ad4697785f0.png",
     "index.html": "/BusyBinder/index.html",
-    "main.4918aacf.css.map": "/BusyBinder/static/css/main.4918aacf.css.map",
-    "main.e282184e.js.map": "/BusyBinder/static/js/main.e282184e.js.map"
+    "main.879beaf4.css.map": "/BusyBinder/static/css/main.879beaf4.css.map",
+    "main.e7a27cc9.js.map": "/BusyBinder/static/js/main.e7a27cc9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4918aacf.css",
-    "static/js/main.e282184e.js"
+    "static/css/main.879beaf4.css",
+    "static/js/main.e7a27cc9.js"
   ]
 }
