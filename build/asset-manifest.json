@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BusyBinder/static/css/main.4918aacf.css",
+    "main.js": "/BusyBinder/static/js/main.e282184e.js",
+    "index.html": "/BusyBinder/index.html",
+    "main.4918aacf.css.map": "/BusyBinder/static/css/main.4918aacf.css.map",
+    "main.e282184e.js.map": "/BusyBinder/static/js/main.e282184e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4918aacf.css",
+    "static/js/main.e282184e.js"
+  ]
+}
